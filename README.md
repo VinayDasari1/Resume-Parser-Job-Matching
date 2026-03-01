@@ -1,22 +1,49 @@
-Resume Parser & Job-Role Matching AI Engine
+# Resume Parser & Job-Role Matching AI Engine
 
-Team Members:
-D. Vinay – 2300080280
-G. Moulika – 2300080066
-J. Navya – 2300080019
+## 👥 Team Members
+- D. Vinay – 2300080280  
+- G. Moulika – 2300080066  
+- J. Navya – 2300080019  
 
-Project Description:
-This project extracts structured information from resumes and performs semantic matching with job descriptions using Sentence-BERT embeddings and cosine similarity.
+---
 
-How to Run:
-1. Install dependencies:
-   pip install -r requirements.txt
+## 📌 Project Description
+This project extracts structured information from resumes (Name, Email, Phone, Skills) using rule-based techniques and performs semantic matching with job descriptions using Sentence-BERT embeddings and cosine similarity.  
 
-2. Run the application:
-   streamlit run app.py
+The system generates a percentage match score and classifies candidates as:
+- Strong Match  
+- Moderate Match  
+- Weak Match  
 
-Model Used:
-all-MiniLM-L6-v2 (Sentence-BERT)
+---
 
-Technologies Used:
-Python, Streamlit, pdfplumber, Sentence-Transformers, Scikit-learn
+## ⚙️ How to Run
+
+### 1️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+
+### 2️⃣ Run the Application
+
+streamlit run app.py
+
+
+---
+
+## 🧠 Model Used
+- all-MiniLM-L6-v2 (Sentence-BERT)
+
+---
+
+## 🛠 Technologies Used
+- Python  
+- Streamlit  
+- pdfplumber  
+- Sentence-Transformers  
+- Scikit-learn  
+
+---
+
+## 🔗 GitHub Repository
+https://github.com/VinayDasari1/Resume-Parser-Job-Matching
